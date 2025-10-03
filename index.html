@@ -56,15 +56,15 @@
   <script>
     let modoEscuro = false;
 
-    // Agora o branco é o primeiro tema da lista
+
     const cores = [
-      { bg: '#ffffff', text: '#000000', img: 'Thomaz.png' },       // branco
-      { bg: '#ff4d4d', text: '#ffffff', img: 'ThomazFoto7.png' },  // vermelho
-      { bg: '#ffff66', text: '#000000', img: 'ThomazFoto3.png' },  // amarelo
-      { bg: '#66ff66', text: '#000000', img: 'ThomazFoto2.png' },  // verde
-      { bg: '#66ccff', text: '#000000', img: 'ThomazFoto4.png' },  // azul
-      { bg: '#cc99ff', text: '#000000', img: 'ThomazFoto6.png' },  // roxo
-      { bg: '#ff99cc', text: '#000000', img: 'ThomazFoto5.png' }   // rosa
+      { bg: '#ffffff', text: '#000000', img: 'Thomaz.png' },       
+      { bg: '#ff4d4d', text: '#ffffff', img: 'ThomazFoto7.png' },  
+      { bg: '#ffff66', text: '#000000', img: 'ThomazFoto3.png' },  
+      { bg: '#66ff66', text: '#000000', img: 'ThomazFoto2.png' },  
+      { bg: '#66ccff', text: '#000000', img: 'ThomazFoto4.png' },  
+      { bg: '#cc99ff', text: '#000000', img: 'ThomazFoto6.png' },
+      { bg: '#ff99cc', text: '#000000', img: 'ThomazFoto5.png' }   
     ];
     let corAtual = 0;
 
@@ -75,7 +75,7 @@
         document.documentElement.style.setProperty('--bg-color', '#121212');
         document.documentElement.style.setProperty('--text-color', '#ffffff');
       } else {
-        // Volta para a cor atual selecionada no array
+        
         const cor = cores[corAtual];
         document.documentElement.style.setProperty('--bg-color', cor.bg);
         document.documentElement.style.setProperty('--text-color', cor.text);
@@ -86,16 +86,17 @@
       corAtual = (corAtual + 1) % cores.length;
       const cor = cores[corAtual];
 
-      // Só muda cores se não estiver em modo escuro
+
       if (!modoEscuro) {
         document.documentElement.style.setProperty('--bg-color', cor.bg);
         document.documentElement.style.setProperty('--text-color', cor.text);
       }
 
-      // Sempre muda a imagem
+      
       const imgElement = document.getElementById('imagemThomaz');
       imgElement.src = cor.img;
     }
   </script>
 </body>
 </html>
+
