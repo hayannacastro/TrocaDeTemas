@@ -52,9 +52,9 @@ Nome: Hayanna Yohara Calvacante de Castro.
 
 Professor: Thomaz Maia.
 
+# 💻Curso: 
+Técnico em Informática 
 
-
-# 💻Curso: Técnico em Informática 
-
-# 🏞️Instituição: IFCE Campus Maranguape 
+# 🏞️Instituição: 
+IFCE Campus Maranguape 
 
