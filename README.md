@@ -1,7 +1,7 @@
 # TrocaDeTemas
+## Projeto [Troca de temas]
 
-📘 README - Projeto [Troca de temas]
-🎯 Projeto Escolhido
+#🎯 Projeto Escolhido
 
 Este projeto foi desenvolvido como parte da atividade da disciplina Desenvolvimento web II, com o objetivo de interagir com as pessoas numa troca de tema claro e escuro , onde vai ter alteração de cor e temas .
 
