@@ -49,6 +49,9 @@ Foram realizados varios testes com estruturas diferentes e também varias imagen
 Nome: Phamela Julia Sena da Silva .
 Nome: Hayanna Yohara Calvacante de Castro.
 
+Professor: Thomaz Maia.
+
+
 
 Curso: [Seu Curso]
 
